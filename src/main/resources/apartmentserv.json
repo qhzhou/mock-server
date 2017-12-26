@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon_img": "http://xxx.png",
+    "actived": false,
+    "name": "接送机"
+  },
+  {
+    "id": 2,
+    "icon_img": "http://xxx.png",
+    "actived": false,
+    "name": "小件搬运"
+  },
+  {
+    "id": 3,
+    "icon_img": "http://xxx.png",
+    "actived": true,
+    "name": "行李寄存"
+  },
+  {
+    "id": 4,
+    "icon_img": "http://xxx.png",
+    "actived": false,
+    "name": "短租过渡"
+  },
+  {
+    "id": 5,
+    "icon_img": "http://xxx.png",
+    "actived": false,
+    "name": "租房订单"
+  },
+  {
+    "id": 6,
+    "icon_img": "http://xxx.png",
+    "actived": true,
+    "name": "房款明细"
+  }
+]

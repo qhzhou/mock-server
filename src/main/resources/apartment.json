@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "cover_img": "http://xxx.png",
+    "title": "xxx",
+    "address": "yyy",
+    "colleague": "悉尼大学",
+    "description": "zzz",
+    "slider": true,
+    "price": 459,
+    "property_id": 1
+  },
+  {
+    "id": 2,
+    "cover_img": "http://asdpfoi.png",
+    "title": "xxx",
+    "address": "yyy",
+    "colleague": "新南威尔士大学",
+    "description": "zzz",
+    "slider": false,
+    "price": 508,
+    "property_id": 2
+  }
+]

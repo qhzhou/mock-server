@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "心理咨询",
+    "cover_img": "http://xxx.png",
+    "service_id": 6,
+    "detail": {
+
+    }
+  },
+  {
+    "id": 2,
+    "name": "就医导诊",
+    "cover_img": "http://xxx.png",
+    "service_id": 6,
+    "detail": {
+
+    }
+  },
+  {
+    "id": 3,
+    "name": "医保索赔",
+    "cover_img": "http://xxx.png",
+    "service_id": 6,
+    "detail": {
+
+    }
+  }
+]

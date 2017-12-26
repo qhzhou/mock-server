@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "熊猫有家卡 1",
+    "cover_img": "http://xxx.png",
+    "categroy_id": 2,
+    "categroy_name": "熊猫有家",
+    "slider": true,
+    "caption": "xxxx",
+    "price": 100.0,
+    "currency": "USD",
+    "available": false,
+    "purchased": false,
+    "detail": {
+    }
+  },
+  {
+    "id": 1,
+    "name": "熊猫有家卡 2",
+    "cover_img": "http://xxx.png",
+    "categroy_id": 2,
+    "categroy_name": "熊猫有家",
+    "slider": true,
+    "caption": "xxxx",
+    "price": 100.0,
+    "currency": "AUD",
+    "available": true,
+    "purchased": true,
+    "detail": {
+    }
+  }
+]

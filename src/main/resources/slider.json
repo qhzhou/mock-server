@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "cover_img": "http://xxx.png"
+  },
+  {
+    "id": 2,
+    "cover_img": "http://yyy.png"
+  },
+  {
+    "id": 3,
+    "cover_img": "http://zzz.png"
+  }
+]

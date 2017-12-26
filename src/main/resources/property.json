@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "房型1",
+    "thumbnail_img": "http://xxx.png",
+    "size": "25m2",
+    "private_facilities": "独立卫浴 厕所",
+    "public_facilities": "厨房 wifi",
+    "price_from": 300
+  },
+  {
+    "id": 2,
+    "name": "房型2",
+    "thumbnail_img": "http://xxx.png",
+    "size": "50m2",
+    "private_facilities": "独立卫浴 厕所",
+    "public_facilities": "厨房 wifi",
+    "price_from": 600
+  },
+  {
+    "id": 3,
+    "name": "房型3",
+    "thumbnail_img": "http://xxx.png",
+    "size": "100m2",
+    "private_facilities": "独立卫浴 厕所",
+    "public_facilities": "厨房 wifi",
+    "price_from": 1000
+  }
+]
