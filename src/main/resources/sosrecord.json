@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "latitude": 31.12135,
+    "longitude": 121.43123,
+    "service_id": 1,
+    "open_time": "2017-10-12",
+    "close_time": "2017-10-13"
+  },
+  {
+    "id": 2,
+    "latitude": 31.12135,
+    "longitude": 121.43123,
+    "service_id": 2,
+    "open_time": "2017-10-12",
+    "close_time": "2017-10-20"
+  },
+  {
+    "id": 3,
+    "latitude": 31.12135,
+    "longitude": 121.43123,
+    "service_id": 3,
+    "open_time": "2017-10-15",
+    "close_time": "2017-10-19"
+  },
+  {
+    "id": 4,
+    "latitude": 31.12135,
+    "longitude": 121.43123,
+    "service_id": 4,
+    "open_time": "2017-11-12",
+    "close_time": "2017-11-13"
+  },
+  {
+    "id": 5,
+    "latitude": 31.12135,
+    "longitude": 121.43123,
+    "service_id": 5,
+    "open_time": "2017-12-12",
+    "close_time": "2017-12-13"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "陪伴/位置监护",
+    "actived": true,
+    "icon_img": "http://xxx.png",
+    "description": "xxx",
+    "call_customer_service": "911",
+    "call_us": "110"
+  },
+  {
+    "id": 2,
+    "name": "默默求助/报警",
+    "actived": false,
+    "icon_img": "http://xxx.png",
+    "description": "xxx",
+    "call_customer_service": "911",
+    "call_us": "110"
+  },
+  {
+    "id": 3,
+    "name": "应急救援",
+    "actived": false,
+    "icon_img": "http://xxx.png",
+    "description": "xxx",
+    "call_customer_service": "911",
+    "call_us": "110"
+  },
+  {
+    "id": 4,
+    "name": "STOP NOW",
+    "actived": true,
+    "icon_img": "http://xxx.png",
+    "description": "xxx",
+    "call_customer_service": "911",
+    "call_us": "110"
+  },
+  {
+    "id": 5,
+    "name": "专车陪护",
+    "actived": false,
+    "icon_img": "http://xxx.png",
+    "description": "xxx",
+    "call_customer_service": "911",
+    "call_us": "110"
+  },
+  {
+    "id": 6,
+    "name": "医疗助手",
+    "actived": true,
+    "icon_img": "http://xxx.png",
+    "description": "xxx",
+    "call_customer_service": "911",
+    "call_us": "110"
+  }
+]

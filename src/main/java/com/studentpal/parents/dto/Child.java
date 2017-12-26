@@ -12,6 +12,7 @@ public class Child extends BaseObject {
     private String name;
     private String avatar;
     private String country;
+    private String colleague;
     private String major;
     private BigDecimal safety;
     private BigDecimal healthy;

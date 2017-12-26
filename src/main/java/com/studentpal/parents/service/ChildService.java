@@ -5,7 +5,7 @@ import com.studentpal.parents.dto.Child;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ChildrenService extends BaseService<Child> {
+public class ChildService extends BaseService<Child> {
 
     @Override
     protected Class<Child> getType() {
