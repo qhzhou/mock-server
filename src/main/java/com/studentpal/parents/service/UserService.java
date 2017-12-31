@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class UserService extends BaseService<User> {
 
     @Override
-    protected Class getType() {
+    protected Class<User> getType() {
         return User.class;
     }
 
