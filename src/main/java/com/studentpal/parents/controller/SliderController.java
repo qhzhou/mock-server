@@ -15,7 +15,7 @@ public class SliderController extends BaseController {
     @Autowired
     private SliderService sliderService;
 
-    @RequestMapping("/parents/sliders")
+    @RequestMapping("/sliders")
     public ResponseWrapper<List<Slider>> getSliders() {
         return ResponseWrapper.succeed(sliderService.findAll());
     }

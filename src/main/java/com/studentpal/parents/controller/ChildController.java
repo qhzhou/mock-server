@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 import lombok.Data;
 
 @RestController
@@ -47,7 +49,7 @@ public class ChildController extends BaseController {
         private String country;
     }
 
-    @RequestMapping("/parents/children/{id}/profile")
+    @RequestMapping("/children/{id}/profile")
     public ResponseWrapper<Child> profile(@RequestHeader("Access-Token") String token,
                                           @PathVariable("id") int id) {
         Child child = childService.findById(id);
@@ -58,41 +60,14 @@ public class ChildController extends BaseController {
         }
     }
 
-    @RequestMapping(value = "/parents/send_child_verification_code", method = RequestMethod.POST)
-    public ResponseWrapper<Void> sendChildVerificationCode(@RequestHeader("Access-Token") String token,
-                                                           @RequestBody SendChildVerificationCodeRequest request) {
-        if (!ValidationUtils.checkMobile(request.getMobile())) {
-            throw new InvalidParamException("mobile");
-        }
-        return ResponseWrapper.succeed(null);
-    }
-
-    @RequestMapping(value = "/parents/verify_child_mobile", method = RequestMethod.POST)
-    public ResponseWrapper<Void> verifyChildMobile(@RequestHeader("Access-Token") String token,
-                                                   @RequestBody VerifyChildMobileRequest request) {
-        if (!ValidationUtils.checkMobile(request.mobile)) {
-            throw new InvalidParamException("mobile");
-        }
-        if (!StringUtils.equals("123456", request.verification_code)) {
-            throw new InvalidParamException("verification code");
-        }
-        return ResponseWrapper.succeed(null);
-    }
-
-    @RequestMapping(value = "/parents/submit_child_info", method = RequestMethod.POST)
-    public ResponseWrapper<Child> submitChildInfo(@RequestHeader("Access-Token") String token,
-                                                  @RequestBody ChildInfoRequest request) {
+    @RequestMapping("/children/profile")
+    public ResponseWrapper<List<Child>> children(@RequestHeader("Access-Token") String token) {
         User user = userService.findByToken(token);
         if (user == null) {
             throw new AuthenticationFailedException();
+        } else {
+            return ResponseWrapper.succeed(childService.findByParentId(user.getId()));
         }
-        Child child = new Child();
-        child.setCountry(request.getCountry());
-        child.setName(request.getName());
-        child.setColleague(request.getColleague());
-        child.setParent_id(user.getId());
-        childService.add(child);
-        return ResponseWrapper.succeed(child);
-
     }
+
 }

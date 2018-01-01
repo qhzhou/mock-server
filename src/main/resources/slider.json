@@ -1,14 +1,17 @@
 [
   {
     "id": 1,
-    "cover_img": "http://xxx.png"
+    "image_url": "http://xxx.png",
+    "sequence": "XXX"
   },
   {
     "id": 2,
-    "cover_img": "http://yyy.png"
+    "image_url": "http://yyy.png",
+    "sequence": "YYY"
   },
   {
     "id": 3,
-    "cover_img": "http://zzz.png"
+    "image_url": "http://zzz.png",
+    "sequence": "ZZZ"
   }
 ]

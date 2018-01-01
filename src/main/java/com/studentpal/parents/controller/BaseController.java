@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 public abstract class BaseController {
 
-  private static final int CODE_MISSING_PARAM = -1;
-  private static final int CODE_INVALID_PARAM = -2;
-  private static final int CODE_RESOURCE_NOT_FOUND = -3;
-  private static final int CODE_AUTHENTICATION_FAILED = -4;
+  private static final int CODE_MISSING_PARAM = 400;
+  private static final int CODE_INVALID_PARAM = 400;
+  private static final int CODE_RESOURCE_NOT_FOUND = 404;
+  private static final int CODE_AUTHENTICATION_FAILED = 401;
 
   @ExceptionHandler
   public ResponseWrapper<Void> handleException(MissingServletRequestParameterException ex) {

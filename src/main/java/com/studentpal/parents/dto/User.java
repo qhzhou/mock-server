@@ -9,6 +9,6 @@ public class User extends BaseObject {
 
     private String name;
     private String mobile;
-    private String password;
     private String token;
+    private String avatar;
 }

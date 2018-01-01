@@ -8,5 +8,6 @@ import lombok.EqualsAndHashCode;
 public class Slider extends BaseObject {
 
 
-    private String cover_img;
+    private String image_url;
+    private String sequence;
 }

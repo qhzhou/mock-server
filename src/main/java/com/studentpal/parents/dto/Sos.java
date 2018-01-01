@@ -8,9 +8,12 @@ import lombok.EqualsAndHashCode;
 public class Sos extends BaseObject {
 
     private String name;
-    private boolean actived;
-    private String icon_img;
-    private String call_customer_service;
+    private String aasm_state;
+    private String cover_img;
+    private String contact_phone;
+    private String contact_name;
     private String description;
-    private String call_us;
+    private String website_url;
+    private String routing;
+    private String details;
 }

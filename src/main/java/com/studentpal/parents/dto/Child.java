@@ -1,7 +1,5 @@
 package com.studentpal.parents.dto;
 
-import java.math.BigDecimal;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -9,14 +7,14 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class Child extends BaseObject {
 
-    private String name;
+    private String first_name;
+    private String last_name;
     private String avatar;
     private String country;
-    private String colleague;
+    private String college;
     private String major;
-    private BigDecimal safety;
-    private BigDecimal healthy;
-    private BigDecimal comfortability;
-    private BigDecimal study;
+    private String mobile;
+    private String child_register_status;
+    private String child_active_status;
     private int parent_id;
 }

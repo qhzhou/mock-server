@@ -11,7 +11,7 @@ public class ResponseWrapper<T> {
 
     public static <T> ResponseWrapper<T> succeed(T data) {
         ResponseWrapper<T> result = new ResponseWrapper<>();
-        result.code = 0;
+        result.code = 200;
         result.msg = "succeed";
         result.data = data;
         return result;
